@@ -1,0 +1,66 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+ --primary-color : #FF5959;
+ --dark-one : #121212;
+ --dark-two : #707070;
+ --dark-light : #FAFAFA;
+ --dark-light-one : #B3B3B3;
+ --bg-one : rgba(79, 157, 166, 0.1);
+ --bg-two : rgba(255, 89, 89, 0.1);
+ --bg-three : rgba(255, 244, 214, 1);
+ --footer-bg : #0B0D17;
+ --inter : 'Inter', sans-serif;
+ --poppins : 'Poppins', sans-serif;
+}
+
+.btn__primary {
+ font-weight: 600;
+ font-size: 20px;
+ font-family: var(--inter);
+ color: #ffffff;
+ background-color: var(--primary-color);
+ border: none;
+ padding: 16px 12px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+header {
+ background-image: url(../images/donation13.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.header__banner {
+ height: 100vh;
+ text-align: center;
+ background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.header__banner h1 , h3 {
+ font-weight: 700;
+ font-size: 65px;
+ line-height: 79px;
+ font-family: var(--inter);
+ color: #ffffff;
+
+}
+
+.header__banner-content {
+ padding: 300px 307px;
+}
+
+.header__banner-content p {
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 28px;
+ font-family: var(--poppins);
+ color: #ffffff;
+ margin: 20px 0;
+}
+
